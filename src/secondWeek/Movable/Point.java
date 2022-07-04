@@ -1,4 +1,7 @@
 package secondWeek.Movable;
 
 public class Point {
+    public static void main(String[] args) {
+
+    }
 }
