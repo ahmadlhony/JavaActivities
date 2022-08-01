@@ -33,6 +33,35 @@ public class Main {
     //decreaseBrightness() which decreases brightness level by 20 and print new brightness
     //if it was 20 or lower it will just print the brightnessLevel
 
+    public static void main(String[] args) {
+        Battery battery = new Battery(5000,50);
+        Camera camera = new Camera(12,4);
+        Screen screen = new Screen(1080,50);
+        SmartPhone smartPhone = new SmartPhone(camera,screen,battery);
+
+//        smartPhone.takePic();
+//        smartPhone.closeCamera();
+//        smartPhone.takePic();
+//        smartPhone.openCamera();
+//        smartPhone.takePic();
+//        smartPhone.openCamera();
+//        smartPhone.takePic();
+//        smartPhone.closeCamera();
+//        smartPhone.takePic();
+
+//        smartPhone.decreaseBrightness();
+//        smartPhone.decreaseBrightness();
+//        smartPhone.decreaseBrightness();
+//        smartPhone.increaseBrightness();
+//        smartPhone.increaseBrightness();
+//        smartPhone.increaseBrightness();
+//        smartPhone.increaseBrightness();
+//        smartPhone.increaseBrightness();
+
+
+
+    }
+
 
 
 }
